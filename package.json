@@ -1,0 +1,33 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "webpack-cli",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=8.11.2",
+    "npm": "5.x"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.1.5",
+    "apollo-link-error": "^1.1.1",
+    "apollo-server": "^2.1.0",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.0.3",
+    "graphql-tools": "^4.0.3",
+    "ts-loader": "^5.3.0",
+    "typescript": "^3.1.4",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
